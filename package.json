@@ -1,6 +1,7 @@
 {
   "name": "react-rivaldoportfolio",
   "private": false,
+  "homepage": "https://mrrivaldo.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
