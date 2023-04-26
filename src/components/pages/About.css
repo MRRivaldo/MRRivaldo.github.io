@@ -1,0 +1,25 @@
+.about {
+  padding-top: 3rem;
+  background-color: #65c8ff;
+  font-family: ubuntu;
+}
+
+.container-about {
+  padding: 2rem;
+  display: block;
+}
+
+.wrapper {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.wrapper h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.wrapper h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
