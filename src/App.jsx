@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Router basename="/mrrivaldo.github.io">
+      <Router>
         <Navigationbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
