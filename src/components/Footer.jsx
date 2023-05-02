@@ -39,7 +39,7 @@ function Footer() {
               <i className="fab fa-instagram"></i>
             </a>
             <a
-              href="https://github.com/rivaldo-gitt"
+              href="https://github.com/mrrivaldo"
               className="social-icon-link github"
               target="_blank"
               aria-label="Github"
