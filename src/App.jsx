@@ -1,18 +1,21 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 import Home from "./components/pages/Home";
-import Navigationbar from "./components/Navbar";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route path="/" element={<Home />} />)
+);
+
+function App({ routes }) {
   return (
     <>
-      <Router>
-        <Navigationbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-        </Routes>
-      </Router>
+      <RouterProvider router={router} />
     </>
   );
 }
