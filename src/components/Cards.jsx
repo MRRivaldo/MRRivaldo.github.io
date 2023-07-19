@@ -47,6 +47,20 @@ function Cards() {
               url="https://react-randomquote.netlify.app/"
             />
           </ul>
+          <ul>
+            <CardItem
+              src="/images/reactn-phonebook.jpg"
+              text="Phonebook"
+              label="React Native"
+              url="https://expo.dev/@rivaldoodoo/Phonebook"
+            />
+            <CardItem
+              src="/images/php-us.png"
+              text="Ultimate Solution"
+              label="PHP"
+              url="https://ultimatesolutionforhealthness.com/"
+            />
+          </ul>
         </div>
       </div>
     </div>
